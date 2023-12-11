@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="display_container">
+        <div id="display">display</div>
+      </div>
+      <div class="keys">
+        <button
+          id="button_1"
+          onclick="
+                result+='1';
+                document.querySelector('#display').innerText = result;
+                "
+        >
+          1
+        </button>
+        <button
+          id="button_2"
+          onclick="
+            // result+=1;
+            result+='2';
+            document.querySelector('#display').innerText = result;
+            "
+        >
+          2
+        </button>
+        <button
+          id="button_3"
+          onclick="
+            // result+=1;
+            result+='3';
+            document.querySelector('#display').innerText = result;
+            "
+        >
+          3
+        </button>
+        <br />
+        <button
+          id="button_4"
+          onclick="
+            // result+=1;
+            result+='4';
+            document.querySelector('#display').innerText = result;
+            "
+        >
+          4
+        </button>
+        <button
+          id="button_5"
+          onclick="
+            // result+=1;
+            result+='5';
+            document.querySelector('#display').innerText = result;"
+        >
+          5
+        </button>
+        <button
+          id="button_6"
+          onclick="
+            // result+=1;
+            result+='6';
+            document.querySelector('#display').innerText = result;"
+        >
+          6
+        </button>
+        <br />
+        <button
+          id="button_7"
+          onclick="
+            // result+=1;
+            result+='7';
+            document.querySelector('#display').innerText = result;"
+        >
+          7
+        </button>
+        <button
+          id="button_8"
+          onclick="
+            // result+=1;
+            result+='8';
+            document.querySelector('#display').innerText = result;"
+        >
+          8
+        </button>
+        <button
+          id="button_9"
+          onclick="
+            // result+=1;
+            result+='9';
+            document.querySelector('#display').innerText = result;"
+        >
+          9
+        </button>
+        <br />
+        <button
+          id="button_plus"
+          onclick="
+            result+='+';
+            document.querySelector('#display').innerText = result;"
+        >
+          +
+        </button>
+        <button
+          id="button_sub"
+          onclick="
+            result+='-';
+            document.querySelector('#display').innerText = result;"
+        >
+          -
+        </button>
+        <button
+          id="button_mul"
+          onclick="
+            result+='*';
+            document.querySelector('#display').innerText = result;"
+        >
+          *
+        </button>
+
+        <br />
+        <button
+          id="button_divide"
+          onclick="
+            result+='/';
+            document.querySelector('#display').innerText = result;"
+        >
+          /
+        </button>
+        <button
+          id="button_equal"
+          onclick="
+            result=eval(result);
+            document.querySelector('#display').innerText = result;"
+        >
+          =
+        </button>
+        <button
+          id="button_c"
+          onclick="
+            result = ' ';
+            document.querySelector('#display').innerText = result;"
+        >
+          c
+        </button>
+        <br />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

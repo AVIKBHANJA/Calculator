@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: larger;
+}
+.display_container{
+    border: 2px solid black;
+    width: 305px;
+    height: 10vh;
+}
+.container{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
